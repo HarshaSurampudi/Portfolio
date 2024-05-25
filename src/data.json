@@ -1,0 +1,164 @@
+{
+  "candidateName": "Sai Sri Harsha Surampudi",
+  "metaTitle": "Sai Sri Harsha Surampudi",
+  "metaDescription": "Data Scientist, AI Research Engineer and developer. I am passionate about Deep Learning, especially generative models and their applications that can help in solving real-world problems.",
+  "about": "I am a passionate Data Scientist and Generative AI Research Engineer with a Masters in Data Science and AI. I have a deep understanding of the latest advancements in the field. My expertise lies in working cutting-edge language models and natural language processing applications that push the boundaries of what's possible with AI. I am dedicated to leveraging my skills to develop innovative solutions that solve complex problems and drive positive change in the world.",
+
+  "hero": {
+    "title": "Sai Sri Harsha Surampudi",
+    "description": "Data Scientist and Generative AI Research Engineer with a Masters in Data Science and AI, specializing in natural language processing applications.",
+    "image": "/IMG_1072.jpg"
+  },
+
+  "projects": [
+    {
+      "title": "Long-Form Question Answering in Legal Natural Language Processing",
+      "description": "Developed a synthetic dataset using large language models to tackle the challenge of long-form question answering in the legal domain. Fine-tuned smaller language models on the dataset, resulting in improved response quality and interpretability. Conducted comprehensive evaluations using multiple metrics and human assessment to validate the model's performance. This project contributes to the growing body of research in legal NLP and showcases techniques for enhancing automated question-answering systems.",
+      "tags": [
+        "Legal NLP",
+        "Transformer Models",
+        "Synthetic Data Generation",
+        "Fine-tuning LLMs"
+      ],
+      "image": "/ai-lawyer.webp"
+    },
+    {
+      "title": "Quantum Machine Learning: Literature Review and Comparative Analysis",
+      "description": "Led a team of seven in analyzing the computational advantages of quantum machine learning algorithms over classical approaches. Developed strong research, analytical, and project management skills while exploring innovative technologies. Presented findings to a large audience, receiving positive feedback on the depth and clarity of the analysis",
+      "tags": ["Quantum Machine Learning", "Research", "Project Management"],
+      "image": "/quantum_ml.webp"
+    },
+    {
+      "title": "AI Lyricist (Telugu)",
+      "description": "Developed an AI-based lyricist that generates Telugu lyrics based on user-provided instructions. The project aims to assist with brainstorming and idea generation in the creative process of lyric writing. By leveraging advanced natural language processing techniques, such as retrieval-augmented generation, the AI model is able to generate lyrics that are relevant to the given input. The project includes a user-friendly interface for easy interaction and showcases the potential of AI in aiding creative tasks.",
+      "tags": ["Retrieval-Augmented Generation", "Prompt Engineering"],
+      "image": "/ai-lyricist.webp"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Data Scientist and Software Engineer",
+      "organization": "Authoritas",
+      "duration": "2023 - Present",
+      "description": "Building AI, NLP, and data science solutions for SEO challenges, utilizing Python, OpenAI API, LangChain, PyTorch, and Transformers. Researching the impact of Generative AI based improvements in search engines (Google SGE, Bing Chat, Perplexity.ai etc) on rankings.",
+      "tags": [
+        "Python",
+        "NLP",
+        "Generative AI",
+        "PyTorch",
+        "Transformers",
+        "LangChain"
+      ]
+    },
+    {
+      "title": "MSc Data Science & Artificial Intelligence",
+      "organization": "University of Liverpool",
+      "duration": "2022 - 2023",
+      "description": "Developed a strong foundation in data science, statistics, and programming, with a focus on real-world applications of AI.",
+      "tags": [
+        "Data Science",
+        "Statistics",
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "organization": "Bank of America",
+      "duration": "2019 - 2022",
+      "description": "Developed and maintained software applications for the bank's internal systems that manage cash flow across different entities in the organization.",
+      "tags": ["Java", "Spring Boot", "Microservices", "SQL", "Agile"]
+    },
+    {
+      "title": "Bachelor of Technology, Electronics and Communication Engineering",
+      "organization": "National Institute of Technology, Warangal",
+      "duration": "2015 - 2019",
+      "description": "Studied electronics and communication engineering, gaining a strong foundation in mathematics, physics, and computer science.",
+      "tags": [
+        "Digital Electronics",
+        "Mathematics",
+        "Physics",
+        "Computer Science"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Ann Maybrey Prize for Academic Excellence - 2023",
+      "description": "Awarded the prestigious Ann Maybrey prize for achieving the highest overall academic performance in the MSc Computer Science department at the University of Liverpool. This accolade underscores my dedication to academic excellence and my proficiency in data science and artificial intelligence."
+    },
+    {
+      "title": "Global Recognition Bronze Award at Bank of America - (2020, 2021)",
+      "description": "Honored with the Global Recognition Bronze Award at Bank of America for two consecutive years (2020, 2021). This award acknowledges my exceptional performance and significant impact within the organization."
+    },
+    {
+      "title": "Top Rank in Andhra Pradesh Polytechnic Entrance Test - 2013",
+      "description": "Secured 1st place out of 250,000 candidates in the Andhra Pradesh Polytechnic Common Entrance Test. This accomplishment highlights my strong technical foundation and dedication to excelling in competitive environments."
+    }
+  ],
+  "skills": [
+    {
+      "title": "Programming Languages",
+      "items": ["Python", "Java", "JavaScript", "SQL"]
+    },
+    {
+      "title": "Frameworks and Libraries",
+      "items": [
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "Scikit-learn",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn",
+        "FastAPI",
+        "HuggingFace Transformers"
+      ]
+    },
+    {
+      "title": "Tools and Technologies",
+      "items": ["Git", "Docker"]
+    },
+    {
+      "title": "Data Analysis",
+      "items": [
+        "Data Visualization",
+        "Statistical Analysis",
+        "Machine Learning"
+      ]
+    },
+    {
+      "title": "Natural Language Processing",
+      "items": [
+        "Transformer Models",
+        "Retrieval-Augmented Generation",
+        "Fine-tuning LLMs",
+        "Synthetic Data Generation"
+      ]
+    },
+    {
+      "title": "Deep Learning",
+      "items": [
+        "Convolutional Neural Networks",
+        "Recurrent Neural Networks",
+        "Generative Adversarial Networks"
+      ]
+    }
+  ],
+  "socials": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/harshasurampudi/"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/HarshaSurampudi"
+    },
+    {
+      "platform": "HuggingFace",
+      "url": "https://huggingface.co/harshasurampudi"
+    }
+  ]
+}
