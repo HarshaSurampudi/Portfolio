@@ -8,14 +8,10 @@ import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
 export function Chat() {
-  const { completion, input, handleInputChange, handleSubmit } = useCompletion({
-    api: "/api/completion",
-  });
-
-  // const handleSubmit = (event: any) => {
-  //   event.preventDefault();
-  //   setResult("Harsha is Awesome!");
-  // };
+  const { completion, input, handleInputChange, handleSubmit, error } =
+    useCompletion({
+      api: "/api/completion",
+    });
 
   return (
     <>
@@ -45,6 +41,17 @@ export function Chat() {
             <div className="grid gap-1">
               <div className="prose prose-stone">
                 <Markdown remarkPlugins={[remarkGfm]} children={completion} />
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+      )}
+      {error && (
+        <Card className="w-full mt-4">
+          <CardContent className="flex items-start p-4">
+            <div className="grid gap-1">
+              <div className="prose prose-stone text-red-600">
+                {error.message}
               </div>
             </div>
           </CardContent>
