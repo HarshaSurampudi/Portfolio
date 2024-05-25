@@ -30,13 +30,13 @@ export function Skills({ skills }: SkillsProps) {
                 className="bg-white p-6 rounded-xl shadow-md transition-transform transform hover:scale-105 dark:bg-gray-700 dark:text-gray-200"
               >
                 <h3 className="text-xl font-bold">{skill.title}</h3>
-                <p className="text-gray-500 dark:text-gray-400 mt-2">
+                <div className="text-gray-500 dark:text-gray-400 mt-2">
                   {skill.items.map((item, index) => (
                     <Badge key={index} variant="secondary" className="mt-2">
                       {item}
                     </Badge>
                   ))}
-                </p>
+                </div>
               </div>
             ))}
           </div>

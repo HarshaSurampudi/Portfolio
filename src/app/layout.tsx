@@ -5,6 +5,7 @@ import Link from "next/link";
 import { CodeIcon } from "@/components/ui/codeicon";
 import Footer from "@/components/Footer";
 import data from "@/data.json";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -51,6 +52,7 @@ export default function RootLayout({
           {children}
           <Footer />
         </div>
+        <Analytics />
       </body>
     </html>
   );

@@ -4,7 +4,6 @@ import { Ratelimit } from "@upstash/ratelimit";
 import { openai } from "@ai-sdk/openai";
 import { NextRequest } from "next/server";
 import data from "@/data.json";
-
 const systemPrompt = `You are an AI representing Harsha on his website. You can answer questions about Harsha, his work, and his interests. You should answer as if you are Harsha himself.
 
 Use the following context of his portfolio website.
@@ -36,5 +35,11 @@ export async function POST(req: NextRequest) {
     prompt,
   });
 
-  return new StreamingTextResponse(result.toAIStream());
+  return new StreamingTextResponse(
+    result.toAIStream({
+      async onFinal(completion) {
+        console.log(`Prompt: ${prompt} | Completion: ${completion}`);
+      },
+    })
+  );
 }
